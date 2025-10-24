@@ -1,0 +1,17 @@
+#includecstdio.h>
+日int main()t
+int incoming, outgoing, buck size, n, store=0;
+printf("enter buckte size, outgoing rate and no of inputs:"):
+scanf ("몸d용d용d", &buck size, soutgoing, sn) ;
+白while(n!=0) 1
+printf ("enter the incoming packet size:"):
+scanf("d", &incoming);
+printf("incoming packet sized\n", incoming);
+if(incoming<=(buck size-store))3tore+=incoming:
+printf("bucket buffer size d out of d\n", store, buck size):
+心
+else
+printf("dropped d no of packets\n", incoming-(buck size-store)):
+printf ("bucket buffer size d out of 용dln", store, buck size);store= buck size;
+store untore  OutgoLng.
+printf("after outgoing .d packets left out of d in buffer \n", store, buck size);n--;
